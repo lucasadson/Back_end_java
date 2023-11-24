@@ -32,6 +32,7 @@
       System.out.println("Bem vindo a sua conta " + nome_Usuario + "!");
 
       }
+      // Corrigir, mesmo colocando a senha certa ainda aparece
       if (senha_Conta_pessoa_fisica_1 != senha_inputada); {
 
         System.out.println("Acesso negado");
