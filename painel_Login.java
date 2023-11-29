@@ -12,7 +12,10 @@
 
     int senha_Conta_pessoa_fisica_1 = 12345;
 
-    System.out.println("Bem vindo a tela inicial, digite seu nome!");
+
+
+    System.out.println("Bem vindo a tela inicial!");
+     System.out.println("A baixo digite seu nome:");
     String nome_Usuario= sc.nextLine();
 
     System.out.println("Abaixo digite o tipo de de conta que deseja acessar.");
@@ -24,25 +27,30 @@
 
      if (numero_Conta == 1 ) {
 
-      System.out.println("Digite sua senha para acessar a conta por favor");
+      System.out.println("Digite sua senha de acesso:");
+
       int senha_inputada = sc.nextInt();
 
       if(senha_inputada == senha_Conta_pessoa_fisica_1 ) {
 
       System.out.println("Bem vindo a sua conta " + nome_Usuario + "!");
 
-      }
-      // Corrigir, mesmo colocando a senha certa ainda aparece
-      if (senha_Conta_pessoa_fisica_1 != senha_inputada); {
 
-        System.out.println("Acesso negado");
 
-      }
+
+     }
+
+     else  {
+
+      System.out.println("Acesso negado");
 
      }
 
 
 
 
+
+
    }
  }
+}
